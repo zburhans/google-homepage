@@ -2,7 +2,7 @@ body {
 	margin:0;
 	text-decoration: none;
 	border:0px;
-	font-family:"Open-Sans";
+	font-family:"Arial";
 }
 #container {
 	min-width: 980px;
@@ -46,7 +46,7 @@ body {
 	height:27px;
 	border-width: 1px;
 	border-color:#EAEAEA;
-	border-radius:1px 1px 1px 1px;
+	border-radius:2px 2px 2px 2px;
 	/*box-shadow: 0px 0px 3px #828282;*/
 	background-color:#EEEEEE;
 }
@@ -56,12 +56,23 @@ body {
 #navBar {
 	height:30px;
 	width:100%;
-	background-color: red;
+	padding: 10px 0 0 0;
+}
+#navBar ul {
+	float:right;
+	list-style-type: none;
+	margin: 0 10px 0 0;
+	padding:0;
+}
+#navBar li {
+	display: inline;
+	margin: 0 5px 0 0;
 }
 #navBar a {
-	float:right;
-	/*font-family: "Noto";*/
 	text-decoration: none;
 	color:black;
-	font-weight: bold;
+}
+#navBar a:hover {
+	text-decoration: underline;
+	box-shadow: 1px 1px 1px #EEEEEE;
 }
